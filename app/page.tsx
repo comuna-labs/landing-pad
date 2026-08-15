@@ -6,5 +6,5 @@ import { CTA } from '@/components/CTA';
 import { Footer } from '@/components/Footer';
 
 export default function Home() {
-  return <main className="overflow-hidden"><Navbar /><Hero /><Features /><Comparison /><CTA /><Footer /></main>;
+  return <><Navbar /><main className="overflow-hidden"><Hero /><Features /><Comparison /><CTA /><Footer /></main></>;
 }
