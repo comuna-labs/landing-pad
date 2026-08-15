@@ -5,4 +5,5 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: #fff; color: #0B0F19; }
+.font-display { font-family: var(--font-display), Georgia, serif; }
 ::selection { background: #e0e7ff; color: #4338ca; }

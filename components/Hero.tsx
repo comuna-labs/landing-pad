@@ -14,8 +14,8 @@ const tools = [
 export function Hero() {
   return <section id="top" className="relative mx-auto grid max-w-6xl gap-14 px-6 pb-20 pt-16 lg:grid-cols-[.92fr_1.08fr] lg:items-center lg:gap-12 lg:pb-28 lg:pt-14">
     <div className="relative z-10 max-w-xl">
-      <Badge><Wand2 className="h-3 w-3" />Closed beta</Badge>
-      <h1 className="mt-7 text-[46px] font-bold leading-[1.05] tracking-[-0.055em] text-ink sm:text-6xl lg:text-[64px]">Software your<br className="hidden lg:block" /> team builds<br /><span className="relative isolate inline-block italic text-indigo-600"><span className="absolute inset-x-[-0.08em] bottom-[0.03em] -z-10 h-[0.38em] -rotate-1 rounded-sm bg-indigo-200/80" />together.</span></h1>
+      <Badge><Wand2 className="h-3 w-3" />CLOSED BETA</Badge>
+      <h1 className="font-display mt-7 text-[46px] font-semibold leading-[1.02] tracking-[-0.055em] text-ink sm:text-6xl lg:text-[64px]">Software your<br className="hidden lg:block" /> team builds<br /><span className="relative isolate inline-block italic text-indigo-600"><span className="absolute inset-x-[-0.08em] bottom-[0.03em] -z-10 h-[0.38em] -rotate-1 rounded-sm bg-indigo-200/80" />together.</span></h1>
       <p className="mt-5 max-w-lg text-base leading-7 text-slate-600 sm:text-lg">Meet commons. A shared workspace for teams to create, own, and improve internal tools with AI. No code required.</p>
       <div id="waitlist" className="mt-8 max-w-md"><WaitlistForm /></div>
       <p className="mt-3 flex items-center gap-2 text-sm text-slate-500"><CheckCircle2 className="h-4 w-4" /> Request access to the closed beta. Open beta is coming soon.</p>

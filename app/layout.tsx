@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { DM_Sans, Lora } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const dmSans = DM_Sans({ subsets: ['latin'], variable: '--font-sans' });
+const lora = Lora({ subsets: ['latin'], style: ['normal', 'italic'], variable: '--font-display' });
 
 export const metadata: Metadata = {
   title: 'commons. | Software your team builds together',
@@ -10,5 +11,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body className={inter.className}>{children}</body></html>;
+  return <html lang="en"><body className={`${dmSans.variable} ${lora.variable} font-sans`}>{children}</body></html>;
 }
