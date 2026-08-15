@@ -1,5 +1,15 @@
 # landing-pad
 
+## Conventional commits
+
+Commit messages are validated with the repository's Git hooks. Enable them after cloning:
+
+```sh
+./scripts/install-git-hooks.sh
+```
+
+Use the format `type(scope): description`; for example, `feat: add waitlist form` or `fix(api): handle malformed requests`.
+
 ## Waitlist submissions
 
 Emails are stored in a Google Sheet via a server-side API route. Credentials

@@ -1,0 +1,19 @@
+#!/bin/sh
+
+set -eu
+
+commit_message_file="$1"
+commit_subject=$(head -n 1 "$commit_message_file")
+conventional_commit_pattern='^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(\([a-z0-9][a-z0-9._/-]*\))?!?: .+'
+
+if ! printf '%s\n' "$commit_subject" | grep -Eq "$conventional_commit_pattern"; then
+  cat >&2 <<'EOF'
+Commit messages must follow Conventional Commits:
+  type(scope): description
+
+Examples:
+  feat: add waitlist form
+  fix(api): handle malformed requests
+EOF
+  exit 1
+fi
