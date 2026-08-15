@@ -59,7 +59,7 @@ export function Features() {
         <div className={`grid h-14 w-14 place-items-center rounded-2xl shadow-sm ${iconStyle}`}><Icon className="h-7 w-7" strokeWidth={1.8} /></div>
         <div className="absolute inset-x-6 bottom-6 sm:inset-x-7 sm:bottom-7">
           <h3 className="whitespace-pre-line text-2xl font-bold leading-[1.02] tracking-[-0.045em] sm:text-[28px]">{title}</h3>
-          <p className={`mt-4 max-w-[350px] text-sm leading-5 ${copyStyle}`}>{description}</p>
+          <p className={`mt-4 max-w-[350px] text-[15px] leading-5 ${copyStyle}`}>{description}</p>
         </div>
       </article>)}
     </div>
