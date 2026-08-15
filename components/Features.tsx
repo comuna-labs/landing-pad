@@ -50,7 +50,7 @@ export function Features() {
         <p className="text-xs font-bold uppercase tracking-[0.18em] text-indigo-600">Built for the whole team</p>
         <h2 className="font-display mt-4 max-w-md text-4xl font-semibold leading-[0.98] tracking-[-0.055em] text-ink sm:text-5xl">Why teams<br />love <span className="italic text-indigo-600">commons.</span></h2>
       </div>
-      <p className="max-w-lg text-base leading-7 text-slate-600 lg:pb-1 sm:text-lg">Great internal tools shouldn’t disappear when their creator leaves. commons gives every team a shared, safe place to build what they need.</p>
+      <p className="ml-auto max-w-lg text-right text-base leading-7 text-slate-600 lg:pb-1 sm:text-lg">Great internal tools shouldn’t disappear when their creator leaves. commons gives every team a shared, safe place to build what they need.</p>
     </div>
 
     <div className="mt-12 grid gap-3 sm:grid-cols-2 sm:gap-4">

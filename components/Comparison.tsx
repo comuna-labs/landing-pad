@@ -26,7 +26,7 @@ export function Comparison() {
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-indigo-600">A different foundation</p>
           <h2 className="font-display mt-4 text-4xl font-semibold leading-[0.98] tracking-[-0.055em] text-ink sm:text-5xl">Built for the<br /><span className="italic text-indigo-600">whole team.</span></h2>
         </div>
-        <p className="max-w-xl text-base leading-7 text-slate-600 sm:text-lg">The tools your team depends on should belong to the team, stay easy to improve, and keep working long after their first creator moves on.</p>
+        <p className="ml-auto max-w-xl text-right text-base leading-7 text-slate-600 sm:text-lg">The tools your team depends on should belong to the team, stay easy to improve, and keep working long after their first creator moves on.</p>
       </div>
       <div className="mt-10 grid gap-4 lg:grid-cols-3 lg:items-center">
         <List title="Traditional builders" entries={traditional} />
