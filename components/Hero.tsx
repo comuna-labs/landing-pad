@@ -12,7 +12,7 @@ const tools = [
 ];
 
 export function Hero() {
-  return <section id="top" className="relative mx-auto grid max-w-6xl gap-14 px-6 pb-20 pt-16 lg:grid-cols-[.92fr_1.08fr] lg:items-center lg:gap-12 lg:pb-28 lg:pt-14">
+  return <section id="top" className="relative mx-auto grid max-w-6xl gap-14 px-6 pb-20 pt-20 lg:grid-cols-[.92fr_1.08fr] lg:items-center lg:gap-12 lg:pb-28 lg:pt-20">
     <div className="relative z-10 max-w-xl">
       <Badge><Wand2 className="h-3 w-3" />Closed beta</Badge>
       <h1 className="font-display mt-7 text-[46px] font-semibold leading-[1.02] tracking-[-0.055em] text-ink sm:text-6xl lg:text-[64px]">Software your<br className="hidden lg:block" /> team builds<br /><span className="relative isolate inline-block italic text-indigo-600"><span className="absolute inset-x-[-0.08em] bottom-[0.03em] -z-10 h-[0.38em] -rotate-1 rounded-sm bg-indigo-200/80" />together.</span></h1>
