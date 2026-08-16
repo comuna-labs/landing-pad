@@ -23,7 +23,6 @@ export function Comparison() {
     <div className="overflow-hidden rounded-3xl bg-[#F5F5FF] px-5 py-8 sm:px-10 sm:py-12 lg:px-14 lg:py-14">
       <div className="grid gap-8 lg:grid-cols-[0.75fr_1.25fr] lg:items-end">
         <div>
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-indigo-600">A different foundation</p>
           <h2 className="font-display mt-4 text-4xl font-semibold leading-[0.98] tracking-[-0.055em] text-ink sm:text-5xl">Built for the<br /><span className="italic text-indigo-600">whole team.</span></h2>
         </div>
         <p className="ml-auto max-w-xl text-right text-base leading-7 text-slate-600 sm:text-lg">The tools your team depends on should belong to the team, stay easy to improve, and work after their creator moves on.</p>

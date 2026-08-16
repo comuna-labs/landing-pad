@@ -47,7 +47,6 @@ export function Features() {
   return <section id="how-it-works" className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
     <div className="grid gap-8 lg:grid-cols-[0.72fr_1.28fr] lg:items-end">
       <div>
-        <p className="text-xs font-bold uppercase tracking-[0.18em] text-indigo-600">Built for the whole team</p>
         <h2 className="font-display mt-4 max-w-md text-4xl font-semibold leading-[0.98] tracking-[-0.055em] text-ink sm:text-5xl">Why teams<br />love <span className="italic text-indigo-600">commons.</span></h2>
       </div>
       <p className="ml-auto max-w-lg text-right text-base leading-7 text-slate-600 lg:pb-1 sm:text-lg">Great internal tools shouldn’t disappear when their creator leaves. commons gives every team a shared, safe place to build what they need.</p>
